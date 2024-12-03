@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planes</title>
+    <style>
+        * {
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            background-color: blue;
+           
+        }
+        #container{height: 80%;}
+        .planes{
+            height: 80%;
+            
+            border: 2px solid white;
+            padding: 10px;
+            display: flex;
+            justify-content: space-around;
+            
+            
+        }
+        .plan{ background-color: antiquewhite;
+            border-radius: 10px;
+            width: 30%;
+            text-align: center;
+        }
+        h1{color: beige;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        }
+        .plan h3{
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        .plan a {
+            display: block;
+            background-color: cornflowerblue;
+            padding: 10px;
+            color: white;
+            margin-top: 100px;
+            text-decoration: none;
+        }
+        .precio{
+            font-size: 2em;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+        }
+        .plan a:hover{
+            background-color: blueviolet;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>Elija el plan más adecuado...</h1>
+        <div class="planes">
+            <div class="plan">
+                <h3>Principiante</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipi
+                    sicing elit. Velit, magnam minus soluta archit
+                    ecto dolores incidunt assumenda officia. Est fuga, 
+                    error reiciendis sunt totam officia, ratione adipisci,
+                     obcaecati sed laudantium aliquid.</p>
+                <p class="precio">1€/mes</p>
+                <a href="#">Elegir</a>
+            </div>
+            <div class="plan">
+                <h3>Basico</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipi
+                    sicing elit. Velit, magnam minus soluta archit
+                    ecto dolores incidunt assumenda officia. Est fuga, 
+                    error reiciendis sunt totam officia, ratione adipisci,
+                     obcaecati sed laudantium aliquid.</p>
+                <p class="precio">10€/mes</p>
+                <a href="#">Elegir</a>
+            </div>
+            <div class="plan">
+                <h3>Profesional</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipi
+                    sicing elit. Velit, magnam minus soluta archit
+                    ecto dolores incidunt assumenda officia. Est fuga, 
+                    error reiciendis sunt totam officia, ratione adipisci,
+                     obcaecati sed laudantium aliquid.</p>
+                <p class="precio">25€/mes</p>
+                <a href="#">Elegir</a>
+            </div>
+            
+        </div>
+    </div>    
+   
+</body>
+</html>
